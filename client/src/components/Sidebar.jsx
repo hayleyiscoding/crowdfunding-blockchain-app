@@ -33,7 +33,7 @@ const Sidebar = () => {
 
   const handleLogout = () => {
     disconnect();
-    alert("You have been logged out");
+    alert("Would you like to log out?");
   };
 
   return (
