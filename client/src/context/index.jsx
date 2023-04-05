@@ -16,7 +16,7 @@ export const StateContextProvider = ({ children }) => {
   const [searchFilterWord, setSearchFilterWord] = React.useState("");
 
   const { contract } = useContract(
-    "0x15e361ED55dB122794Dc810A5f025ac0d0ECb371"
+    "0xA9B981fd48b2A9Dd9075B088d05393d80479b2b0"
   );
 
   const { mutateAsync: createCampaign } = useContractWrite(
